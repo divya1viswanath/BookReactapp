@@ -13,7 +13,7 @@ const Navbar = () => {
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <Link class="nav-link active" to='/'>ADD BOOK</Link>
-                    <Link class="nav-link" to='/search' >SERACH BOOK</Link>
+                    <Link class="nav-link active" to='/search' >SEARCH BOOK</Link>
                 </div>
                 </div>
             </div>
