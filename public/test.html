@@ -1,8 +1,39 @@
+<div class="row">
+    <div class="col col 12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
+        <div className="row g-3>                                                                                                                                                                                                                                                                                                        ">                        
+            <div class="col col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                {booklist.map( (value,key)=>{
+                    return<div class="card" >
+                        <img src="..." class="card-img-top" alt="..."/>
+                        <div class="card-body">
+                        <h5 class="card-title">{value.Title}</h5>
+                        <p class="card-text">{value.Author}</p>
+                        <p class="card-text">{value.Price}</p
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                  </div>
+    
+                } )}      
+            </div>                                                                                                                                                                                                                        
+        </div>
+    </div>
+</div>
+
 <div class="container">
     <div class="row">
-        <div class="col col-12 col-sm-12 col-lg-12-col-xl-12 col-xxl-12">
-            {booklist.title}
-            <label for="" class="form-label"></label>
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
